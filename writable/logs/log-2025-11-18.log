@@ -1,0 +1,295 @@
+CRITICAL - 2025-11-18 14:42:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "configuracion/configuracion.php"
+[Method: GET, Route: configuracion]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(24): view('configuracion/configuracion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 14:46:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "configuracion/configuracion.php"
+[Method: GET, Route: configuracion]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('configuracion/configuracion.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(24): view('configuracion/configuracion')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 14:47:16 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 4.
+ 1 APPPATH\Views\configuracion\configuracion.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(24): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 14:47:18 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 4.
+ 1 APPPATH\Views\configuracion\configuracion.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(24): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 14:48:10 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 4.
+ 1 APPPATH\Views\configuracion\configuracion.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(24): view('configuracion/configuracion')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 14:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 14:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 15:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 15:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 16:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 16:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 16:25:32 --> Error: Call to undefined function set_value()
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 16:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 16:26:19 --> Error: Call to undefined function set_value()
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 16:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 16:28:43 --> Error: Call to undefined function set_value()
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 16:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 16:28:47 --> Error: Call to undefined function set_value()
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 16:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 16:28:48 --> Error: Call to undefined function set_value()
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 4 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 16:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 20:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 20:54:49 --> ErrorException: Undefined property: CodeIgniter\View\View::$configuracion
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 APPPATH\Views\configuracion\configuracion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$configuracion', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 20:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 20:59:48 --> ErrorException: Undefined property: CodeIgniter\View\View::$configuracion
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 APPPATH\Views\configuracion\configuracion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$configuracion', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 20:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 20:59:49 --> ErrorException: Undefined property: CodeIgniter\View\View::$configuracion
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 28.
+ 1 APPPATH\Views\configuracion\configuracion.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$configuracion', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(23): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 21:07:31 --> ErrorException: Undefined property: App\Controllers\Configuracion::$configuacion
+[Method: GET, Route: configuracion]
+in APPPATH\Controllers\Configuracion.php on line 17.
+ 1 APPPATH\Controllers\Configuracion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Configuracion::$configuacion', 'C:\\xampp\\htdocs\\pos\\app\\Controllers\\Configuracion.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 21:07:38 --> ErrorException: Undefined property: App\Controllers\Configuracion::$configuacion
+[Method: GET, Route: configuracion]
+in APPPATH\Controllers\Configuracion.php on line 17.
+ 1 APPPATH\Controllers\Configuracion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Configuracion::$configuacion', 'C:\\xampp\\htdocs\\pos\\app\\Controllers\\Configuracion.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-18 21:07:41 --> ErrorException: Undefined property: App\Controllers\Configuracion::$configuacion
+[Method: GET, Route: configuracion]
+in APPPATH\Controllers\Configuracion.php on line 17.
+ 1 APPPATH\Controllers\Configuracion.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Configuracion::$configuacion', 'C:\\xampp\\htdocs\\pos\\app\\Controllers\\Configuracion.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 21:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 21:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 21:39:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 35.
+ 1 APPPATH\Views\configuracion\configuracion.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 21:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 21:42:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 35.
+ 1 APPPATH\Views\configuracion\configuracion.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 21:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 21:49:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 35.
+ 1 APPPATH\Views\configuracion\configuracion.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 21:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 21:49:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: configuracion]
+in APPPATH\Views\configuracion\configuracion.php on line 35.
+ 1 APPPATH\Views\configuracion\configuracion.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\configuracion\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 5 APPPATH\Controllers\Configuracion.php(35): view('configuracion/configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Configuracion->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 21:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-18 22:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-18 22:05:49 --> ErrorException: Undefined variable $titulo
+[Method: POST, Route: unidades/insertar]
+in APPPATH\Views\unidades\nuevo.php on line 4.
+ 1 APPPATH\Views\unidades\nuevo.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\pos\\app\\Views\\unidades\\nuevo.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\unidades\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 5 APPPATH\Controllers\Unidades.php(62): view('unidades/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Unidades->insertar()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-18 22:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

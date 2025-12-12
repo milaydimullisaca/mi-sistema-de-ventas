@@ -1,0 +1,163 @@
+ERROR - 2025-11-17 13:49:14 --> mysqli_sql_exception: Duplicate entry '123456788' for key 'codigo' in C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\pos\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\pos\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\pos\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\pos\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pos\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pos\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pos\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pos\app\Controllers\Productos.php(69): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pos\system\CodeIgniter.php(933): App\Controllers\Productos->insertar()
+#10 C:\xampp\htdocs\pos\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\xampp\htdocs\pos\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pos\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\pos\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\pos\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-11-17 13:49:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123456788' for key 'codigo'
+[Method: POST, Route: productos/insertar]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (:codigo:, :nombre:, :precio_venta:, :precio_compra:, :stock_minimo:, :inventariable:, :id_unidad:, :id_categoria:, :fecha_alta:, :fecha_edit:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Productos.php(69): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->insertar()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-17 13:49:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123456788' for key 'codigo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (\'123456788\', \'Coca\', \'4.00\', \'5.08\', \'10\', \'1\', \'2\', \'1\', \'2025-11-17 13:49:14\', \'2025-11-17 13:49:14\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (\'123456788\', \'Coca\', \'4.00\', \'5.08\', \'10\', \'1\', \'2\', \'1\', \'2025-11-17 13:49:14\', \'2025-11-17 13:49:14\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (:codigo:, :nombre:, :precio_venta:, :precio_compra:, :stock_minimo:, :inventariable:, :id_unidad:, :id_categoria:, :fecha_alta:, :fecha_edit:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Productos.php(69): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->insertar()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-17 13:49:14 --> [Caused by] mysqli_sql_exception: Duplicate entry '123456788' for key 'codigo'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (\'123456788\', \'Coca\', \'4.00\', \'5.08\', \'10\', \'1\', \'2\', \'1\', \'2025-11-17 13:49:14\', \'2025-11-17 13:49:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (\'123456788\', \'Coca\', \'4.00\', \'5.08\', \'10\', \'1\', \'2\', \'1\', \'2025-11-17 13:49:14\', \'2025-11-17 13:49:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (\'123456788\', \'Coca\', \'4.00\', \'5.08\', \'10\', \'1\', \'2\', \'1\', \'2025-11-17 13:49:14\', \'2025-11-17 13:49:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productos` (`codigo`, `nombre`, `precio_venta`, `precio_compra`, `stock_minimo`, `inventariable`, `id_unidad`, `id_categoria`, `fecha_alta`, `fecha_edit`) VALUES (:codigo:, :nombre:, :precio_venta:, :precio_compra:, :stock_minimo:, :inventariable:, :id_unidad:, :id_categoria:, :fecha_alta:, :fecha_edit:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Productos.php(69): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos->insertar()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-17 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 14:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 14:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 14:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 14:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 14:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-17 14:40:02 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-17 14:40:15 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-17 14:40:21 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-17 14:42:17 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-17 14:42:18 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-17 14:42:19 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-17 14:42:23 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-17 14:42:26 --> ErrorException: Cannot use empty array elements in arrays
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-11-17 14:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 14:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-17 14:53:01 --> ErrorException: Undefined variable $unidades
+[Method: GET, Route: clientes/nuevo]
+in APPPATH\Views\clientes\nuevo.php on line 46.
+ 1 APPPATH\Views\clientes\nuevo.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos\\app\\Views\\clientes\\nuevo.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\clientes\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('clientes/nuevo', [], true)
+ 5 APPPATH\Controllers\Clientes.php(57): view('clientes/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-17 14:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-17 15:07:21 --> ErrorException: Undefined array key "codigo"
+[Method: GET, Route: clientes/editar/1]
+in APPPATH\Views\clientes\editar.php on line 29.
+ 1 APPPATH\Views\clientes\editar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'C:\\xampp\\htdocs\\pos\\app\\Views\\clientes\\editar.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(113): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-17 15:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-17 15:16:39 --> ErrorException: Undefined array key "codigo"
+[Method: GET, Route: clientes/eliminados]
+in APPPATH\Views\clientes\eliminados.php on line 32.
+ 1 APPPATH\Views\clientes\eliminados.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'C:\\xampp\\htdocs\\pos\\app\\Views\\clientes\\eliminados.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\pos\\app\\Views\\clientes\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('clientes/eliminados', [], true)
+ 5 APPPATH\Controllers\Clientes.php(43): view('clientes/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-17 15:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-17 15:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
